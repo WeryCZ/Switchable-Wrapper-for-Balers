@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="93">
+    <author>Wery</author>
+    <version>1.0.0.0</version>
+    <multiplayer supported="true"/>   
+    <iconFilename>icon_SBWfB.dds</iconFilename>
+
+    <title>
+        <cs>Vypínatelná Ovíječka U Balíkovačů</cs>
+        <en>Switchable Bale Wrappers For Balers</en>
+        <de>Abschaltbare Ballenwickler Für Ballenpressen</de>
+        <fr>Enrubanneuses Désactivables Pour Presse À Balles</fr>
+        <it>Avvolgitori Disattivabili Per Pressa A Balli</it>
+        <es>Envolvedoras Desactivables Para Prensas De Pacas</es>
+        <da>Af- Og Påslåelige Ballenindpakker Til Pressere</da>
+        <nl>Uitschakelbare Balenwikkelaars Voor Persen</nl>
+        <fi>Poiskettavat Paalinkäärijät Paalaimille</fi>
+        <hu>Kikapcsolható Bálacsomagolók Bálázókhoz</hu>
+        <ja>バールラー用のスイッチ式バール包み機</ja>
+        <ko>발기기용 스위치 가능한 오비 래퍼</ko>
+        <no>Av/På-Koblingsbare Balleinnpakker For Pressere</no>
+        <pl>Wyłączalne Owijarki Do Bal Dla Pras</pl>
+        <pt-br>Envolvedoras Desligáveis Para Enfardadeiras</pt-br>
+        <pt>Envolvedoras Desligáveis Para Enfardadeiras</pt>
+        <ro>Învelitori Dezactivabili Pentru Presă De Baloți</ro>
+        <ru>Выключаемые Овиватели Для Прессов</ru>
+        <zh-cn>可关闭的包膜机用于打包机</zh-cn>
+        <es-lat>Envolvedoras Desactivables Para Prensas De Pacas</es-lat>
+        <sv>Av/På-Kopplingsbara Balarwrapers För Pressar</sv>
+        <zh-tw>可關閉的包膜機用於打包機</zh-tw>
+        <tr>Kapalı Olan Balya Sarıcıları Için Basınç Makineleri</tr>
+        <uk>Вимикаємі Обмотувачі Для Пресів</uk>
+        <vi>Các Máy Quấn Có Thể Tắt Cho Máy Ép Bales</vi>
+        <id>Pembungkus Bal Yang Dapat Dimatikan Untuk Mesin Pembuat Bal</id>
+    </title>
+
+    <description>
+        <cs><![CDATA[Popis: Tento script vám umožní vypínat a zapínat váší ovíječku na balíkovači a přidá jeden nový způsob vykládání.
+Klávesové zkratky: Zápínání/vypínání ovíjčky - CTRL + ALT
+Přepínání módů vykládání - Z]]></cs>
+        <en><![CDATA[Description: This script allows you to enable or disable the wrapper on the baler and adds a new unloading mode.
+Hotkeys: Enable/Disable wrapper - CTRL + ALT
+Switch unloading modes - Z]]></en>
+        <fr><![CDATA[Description : Ce script permet d'activer ou de désactiver l'enrubanneuse sur la presse et ajoute un nouveau mode de déchargement.
+Raccourcis clavier : Activer/Désactiver l'enrubanneuse - CTRL + ALT
+Basculer entre les modes de déchargement - Z]]></fr>
+        <it><![CDATA[Descrizione: Questo script consente di attivare o disattivare l'avvolgitore sulla pressa e aggiunge una nuova modalità di scarico.
+Tasti rapidi: Attiva/Disattiva avvolgitore - CTRL + ALT
+Cambia modalità di scarico - Z]]></it>
+        <de><![CDATA[Beschreibung: Dieses Skript ermöglicht das Aktivieren oder Deaktivieren des Wicklers an der Presse und fügt einen neuen Entlademodus hinzu.
+Tastenkombinationen: Wickler ein-/ausschalten - STRG + ALT
+Entlademodi umschalten - Z]]></de>
+        <es><![CDATA[Descripción: Este script permite activar o desactivar la envolvedora en la empacadora y agrega un nuevo modo de descarga.
+Teclas rápidas: Activar/Desactivar envolvedora - CTRL + ALT
+Cambiar modos de descarga - Z]]></es>
+        <da><![CDATA[Beskrivelse: Dette script gør det muligt at aktivere eller deaktivere indpakningen på presseren og tilføjer en ny aflæsningsmåde.
+Genvejstaster: Aktivér/Deaktivér indpakning - CTRL + ALT
+Skift aflæsningsmåde - Z]]></da>
+        <nl><![CDATA[Beschrijving: Dit script maakt het mogelijk om de wikkelaar op de pers in of uit te schakelen en voegt een nieuwe lossingsmodus toe.
+Sneltoetsen: Wikkelaar in-/uitschakelen - CTRL + ALT
+Wijzig lossingsmodus - Z]]></nl>
+        <fi><![CDATA[Kuvaus: Tämä skripti mahdollistaa käärijän aktivoinnin tai deaktivoinnin paalaimessa ja lisää uuden purkaustilan.
+Pikanäppäimet: Käärijä päälle/pois - CTRL + ALT
+Vaihda purkaustiloja - Z]]></fi>
+        <hu><![CDATA[Leírás: Ez a szkript lehetővé teszi a bálacsomagoló be- vagy kikapcsolását a bálázón, és egy új kirakodási módot ad hozzá.
+Gyorsbillentyűk: Csomagoló be-/kikapcsolása - CTRL + ALT
+Kirakodási módok váltása - Z]]></hu>
+        <ja><![CDATA[説明: このスクリプトを使用すると、ベーラーのラッピング機能を有効または無効にし、新しいアンロードモードを追加できます。
+ショートカットキー: ラッピングの有効/無効 - CTRL + ALT
+アンロードモードの切り替え - Z]]></ja>
+        <ko><![CDATA[설명: 이 스크립트를 사용하면 압축기의 래퍼를 활성화하거나 비활성화하고 새로운 언로딩 모드를 추가할 수 있습니다.
+단축키: 래퍼 활성화/비활성화 - CTRL + ALT
+언로딩 모드 전환 - Z]]></ko>
+        <no><![CDATA[Beskrivelse: Dette skriptet lar deg aktivere eller deaktivere pakkeren på pressen og legger til en ny lossemodus.
+Hurtigtaster: Aktiver/Deaktiver pakker - CTRL + ALT
+Bytt lossemodus - Z]]></no>
+        <pl><![CDATA[Opis: Ten skrypt umożliwia włączanie lub wyłączanie owijarki w prasie i dodaje nowy tryb rozładunku.
+Skróty klawiszowe: Włącz/Wyłącz owijarkę - CTRL + ALT
+Przełącz tryby rozładunku - Z]]></pl>
+        <pt-br><![CDATA[Descrição: Este script permite ativar ou desativar o envolvedor na enfardadeira e adiciona um novo modo de descarregamento.
+Teclas de atalho: Ativar/Desativar envolvedor - CTRL + ALT
+Alternar modos de descarregamento - Z]]></pt-br>
+        <pt><![CDATA[Descrição: Este script permite ativar ou desativar o envolvedor na enfardadeira e adiciona um novo modo de descarregamento.
+Teclas de atalho: Ativar/Desativar envolvedor - CTRL + ALT
+Alternar modos de descarregamento - Z]]></pt>
+        <ro><![CDATA[Descriere: Acest script permite activarea sau dezactivarea înfășurătorului pe presă și adaugă un nou mod de descărcare.
+Taste rapide: Activează/Dezactivează înfășurătorul - CTRL + ALT
+Schimbă modurile de descărcare - Z]]></ro>
+        <ru><![CDATA[Описание: Этот скрипт позволяет включать или выключать обмотчик на прессе и добавляет новый режим разгрузки.
+Горячие клавиши: Включить/Выключить обмотчик - CTRL + ALT
+Переключение режимов разгрузки - Z]]></ru>
+        <zh-cn><![CDATA[描述：该脚本允许您启用或禁用打包机上的缠绕器，并添加一种新的卸载模式。
+快捷键：启用/禁用缠绕器 - CTRL + ALT
+切换卸载模式 - Z]]></zh-cn>
+        <es-lat><![CDATA[Descripción: Este script permite activar o desactivar la envolvedora en la empacadora y agrega un nuevo modo de descarga.
+Teclas rápidas: Activar/Desactivar envolvedora - CTRL + ALT
+Cambiar modos de descarga - Z]]></es-lat>
+        <sv><![CDATA[Beskrivning: Detta skript gör det möjligt att aktivera eller inaktivera omslagaren på pressen och lägger till ett nytt urlastningsläge.
+Snabbtangenter: Aktivera/Inaktivera omslagare - CTRL + ALT
+Växla urlastningslägen - Z]]></sv>
+        <zh-tw><![CDATA[描述：此腳本允許您啟用或禁用打包機上的包膜器，並新增一種新的卸載模式。
+快捷鍵：啟用/禁用包膜器 - CTRL + ALT
+切換卸載模式 - Z]]></zh-tw>
+        <tr><![CDATA[Açıklama: Bu betik, balya makinesindeki sargıyı etkinleştirmenize veya devre dışı bırakmanıza ve yeni bir boşaltma modu eklemenize olanak tanır.
+Kısayol tuşları: Sargıyı Etkinleştir/Devre Dışı Bırak - CTRL + ALT
+Boşaltma modlarını değiştir - Z]]></tr>
+        <uk><![CDATA[Опис: Цей скрипт дозволяє вмикати або вимикати обмотчик на прес-підбирачі та додає новий режим вивантаження.
+Гарячі клавіші: Увімкнути/Вимкнути обмотчик - CTRL + ALT
+Перемикання режимів вивантаження - Z]]></uk>
+        <vi><![CDATA[Mô tả: Tập lệnh này cho phép bạn bật hoặc tắt máy quấn rơm trên máy đóng kiện và thêm một chế độ dỡ hàng mới.
+Phím tắt: Bật/Tắt máy quấn rơm - CTRL + ALT
+Chuyển đổi chế độ dỡ hàng - Z]]></vi>
+        <id><![CDATA[Deskripsi: Skrip ini memungkinkan Anda mengaktifkan atau menonaktifkan pembungkus pada mesin baler dan menambahkan mode pemuatan baru.
+Tombol pintas: Aktifkan/Nonaktifkan pembungkus - CTRL + ALT
+Beralih mode pemuatan - Z]]></id>
+    </description>
+
+    <l10n>
+        <text name="DROP_MODE_MANUALLY">
+            <cs>Manuálně</cs>
+            <en>Manually</en>
+            <fr>Manuellement</fr>
+            <it>Manuale</it>
+            <de>Manuell</de>
+            <es>Manualmente</es>
+            <da>Manuelt</da>
+            <nl>Handmatig</nl>
+            <fi>Käsin</fi>
+            <hu>Kézzel</hu>
+            <ja>手動</ja>
+            <ko>수동</ko>
+            <no>Manuelt</no>
+            <pl>Ręcznie</pl>
+            <pt-br>Manualmente</pt-br>
+            <pt>Manualmente</pt>
+            <ro>Manual</ro>
+            <ru>Вручную</ru>
+            <zh-cn>手动</zh-cn>
+            <es-lat>Manualmente</es-lat>
+            <sv>Manuellt</sv>
+            <zh-tw>手動</zh-tw>
+            <tr>Manuel</tr>
+            <uk>Ручний</uk>
+            <vi>Thủ công</vi>
+            <id>Manual</id>
+        </text>
+        <text name="DROP_MODE_AUTOMATIC">
+            <cs>Automaticky</cs>
+            <en>Automatically</en>
+            <fr>Automatiquement</fr>
+            <it>Automatico</it>
+            <de>Automatisch</de>
+            <es>Automáticamente</es>
+            <da>Automatisk</da>
+            <nl>Automatisch</nl>
+            <fi>Automaattisesti</fi>
+            <hu>Automatikusan</hu>
+            <ja>自動</ja>
+            <ko>자동</ko>
+            <no>Automatisk</no>
+            <pl>Automatycznie</pl>
+            <pt-br>Automaticamente</pt-br>
+            <pt>Automaticamente</pt>
+            <ro>Automat</ro>
+            <ru>Автоматически</ru>
+            <zh-cn>自动</zh-cn>
+            <es-lat>Automáticamente</es-lat>
+            <sv>Automatiskt</sv>
+            <zh-tw>自動</zh-tw>
+            <tr>Otomatik</tr>
+            <uk>Автоматично</uk>
+            <vi>Tự động</vi>
+            <id>Otomatis</id>
+        </text>
+        <text name="DROP_MODE_COLLECT">
+            <cs>Shromáždit po dvou</cs>
+            <en>Collect In Pairs</en>
+            <fr>Collecter Par Deux</fr>
+            <it>Raccogliere A Coppie</it>
+            <de>Sammeln Zu Zweit</de>
+            <es>Recoger En Pares</es>
+            <da>Samle I Par</da>
+            <nl>Verzamelen Per Twee</nl>
+            <fi>Kerää Pareittain</fi>
+            <hu>Gyűjteni Kettenként</hu>
+            <ja>ペアで収集</ja>
+            <ko>두 개씩 수집</ko>
+            <no>Samle To Og To</no>
+            <pl>Zbierać Po Dwa</pl>
+            <pt-br>Coletar Em Pares</pt-br>
+            <pt>Coletar Em Pares</pt>
+            <ro>Colecta Câte Două</ro>
+            <ru>Собирать По Два</ru>
+            <zh-cn>成对收集</zh-cn>
+            <es-lat>Recoger En Pares</es-lat>
+            <sv>Samla I Par</sv>
+            <zh-tw>成對收集</zh-tw>
+            <tr>İkili Topla</tr>
+            <uk>Збирати По Два</uk>
+            <vi>Thu Thập Thành Đôi</vi>
+            <id>Mengumpulkan Berpasangan</id>
+        </text>
+        <text name="START_BALE_WRAPPER">
+            <cs>Zapnout: Ovíječku balíků</cs>
+            <en>Activate bale wrapper</en>
+            <fr>Activer l'enrubanneuse</fr>
+            <it>Attivare la macchina per fasciatura</it>
+            <de>Ballenzusammenschneider einschalten</de>
+            <es>Activar envolvedora de pacas</es>
+            <da>Aktiver bale wrapper</da>
+            <nl>Schakel de balenwikkelaar in</nl>
+            <fi>Ota paalinkääntäjä käyttöön</fi>
+            <hu>Bekapcsolni a bála csomagolót</hu>
+            <ja>ベールラッパーをオンにする</ja>
+            <ko>발 포장기를 켜다</ko>
+            <no>Aktiver balle wrapper</no>
+            <pl>Włącz zawijarkę balotów</pl>
+            <pt-BR>Ativar a envelopadora de fardos</pt-BR>
+            <pt-PT>Ativar a envelopadora de fardos</pt-PT>
+            <ro>Activați aparatul de împachetat baloți</ro>
+            <ru>Включить обвязывающую машину</ru>
+            <zh-CN>启动打包机</zh-CN>
+            <es-LA>Activar envolvedora de pacas</es-LA>
+            <sv>Aktivera balplastaren</sv>
+            <zh-TW>啟動打包機</zh-TW>
+            <tr>Bale wrapper'ı etkinleştir</tr>
+            <uk>Увімкнути обмотувач тюків</uk>
+            <vi>Bật máy bọc rơm</vi>
+            <id>Aktifkan pembungkus baler</id>
+        </text>
+        <text name="STOP_BALE_WRAPPER">
+            <cs>Vypnout: Ovíječku Balíků</cs>
+            <en>Deactivate bale wrapper</en>
+            <fr>Désactiver l'enrubanneuse</fr>
+            <it>Disattivare la macchina per fasciatura</it>
+            <de>Ballenzusammenschneider ausschalten</de>
+            <es>Desactivar envolvedora de pacas</es>
+            <da>Deaktiver bale wrapper</da>
+            <nl>Schakel de balenwikkelaar uit</nl>
+            <fi>Poista paalinkääntäjä käytöstä</fi>
+            <hu>Kapcsolja ki a bála csomagolót</hu>
+            <ja>ベールラッパーをオフにする</ja>
+            <ko>발 포장기를 끄다</ko>
+            <no>Deaktiver balle wrapper</no>
+            <pl>Wyłącz zawijarkę balotów</pl>
+            <pt-BR>Desativar a envelopadora de fardos</pt-BR>
+            <pt-PT>Desativar a envelopadora de fardos</pt-PT>
+            <ro>Dezactivați aparatul de împachetat baloți</ro>
+            <ru>Выключить обвязывающую машину</ru>
+            <zh-CN>关闭打包机</zh-CN>
+            <es-LA>Desactivar envolvedora de pacas</es-LA>
+            <sv>Avaktivera balplastaren</sv>
+            <zh-TW>關閉打包機</zh-TW>
+            <tr>Bale wrapper'ı devre dışı bırak</tr>
+            <uk>Вимкнути обмотувач тюків</uk>
+            <vi>Tắt máy bọc rơm</vi>
+            <id>Matikan pembungkus baler</id>
+        </text>
+        <text name="CURRENT_DROP_MODE">
+            <cs>Aktuální režim spuštění: currentDropMode</cs>
+            <en>Current Start Mode: currentDropMode</en>
+            <fr>Mode Actuel De Démarrage: currentDropMode</fr>
+            <it>Modalità Corrente Di Avvio: currentDropMode</it>
+            <de>Aktueller Startmodus: currentDropMode</de>
+            <es>Modo Actual De Inicio: currentDropMode</es>
+            <da>Nuværende Starttilstand: currentDropMode</da>
+            <nl>Huidige Startmodus: currentDropMode</nl>
+            <fi>Nykyinen Käynnistystila: currentDropMode</fi>
+            <hu>Aktuális Indítási Mód: currentDropMode</hu>
+            <ja>現在の開始モード: currentDropMode</ja>
+            <ko>현재 시작 모드: currentDropMode</ko>
+            <no>Gjeldende Startmodus: currentDropMode</no>
+            <pl>Bieżący Tryb Uruchomienia: currentDropMode</pl>
+            <pt-br>Modo Atual De Início: currentDropMode</pt-br>
+            <pt>Modo Atual De Início: currentDropMode</pt>
+            <ro>Modul Curent De Pornire: currentDropMode</ro>
+            <ru>Текущий Режим Запуска: currentDropMode</ru>
+            <zh-cn>当前启动模式： currentDropMode</zh-cn>
+            <es-lat>Modo Actual De Inicio: currentDropMode</es-lat>
+            <sv>Nuvarande Startläge: currentDropMode</sv>
+            <zh-tw>當前啟動模式： currentDropMode</zh-tw>
+            <tr>Geçerli Başlatma Modu: currentDropMode</tr>
+            <uk>Поточний Режим Запуску: currentDropMode</uk>
+            <vi>Chế Độ Khởi Động Hiện Tại: currentDropMode</vi>
+            <id>Mode Mulai Saat Ini: currentDropMode</id>
+        </text>
+        <text name="input_CHANGE_DROP_MODE_BUTTON">
+            <cs>Přepnout režim spuštění</cs>
+            <en>Change Start Mode</en>
+            <fr>Changer Le Mode De Démarrage</fr>
+            <it>Cambia Modalità Di Avvio</it>
+            <de>Startmodus Umschalten</de>
+            <es>Cambiar El Modo De Inicio</es>
+            <da>Skift Starttilstand</da>
+            <nl>Wijzig Startmodus</nl>
+            <fi>Vaihda Käynnistystila</fi>
+            <hu>Módosítsa Az Indítási Módot</hu>
+            <ja>開始モードを変更</ja>
+            <ko>시작 모드 변경</ko>
+            <no>Endre Startmodus</no>
+            <pl>Zmień Tryb Uruchomienia</pl>
+            <pt-br>Alterar Modo De Início</pt-br>
+            <pt>Alterar Modo De Início</pt>
+            <ro>Schimbă Modul De Pornire</ro>
+            <ru>Сменить Режим Запуска</ru>
+            <zh-cn>更改启动模式</zh-cn>
+            <es-lat>Cambiar El Modo De Inicio</es-lat>
+            <sv>Ändra Startläge</sv>
+            <zh-tw>更改啟動模式</zh-tw>
+            <tr>Başlatma Modunu Değiştir</tr>
+            <uk>Змінити Режим Запуску</uk>
+            <vi>Thay Đổi Chế Độ Khởi Động</vi>
+            <id>Ubah Mode Mulai</id>
+        </text>
+        <text name="input_TOGGLE_BALE_WRAPPER_BUTTON">
+            <cs>Zapnout/vypnout ovíječku balíků</cs>
+            <en>Toggle Bale Wrapper On/Off</en>
+            <fr>Activer/Désactiver L’enrubanneuse</fr>
+            <it>Attiva/Disattiva L’avvolgitore</it>
+            <de>Ballenwickler An-/Ausschalten</de>
+            <es>Encender/Apagar El Envolvedor</es>
+            <da>Tænd/Sluk Ballewrapper</da>
+            <nl>Schakel Balenwikkelaar Aan/Uit</nl>
+            <fi>Käynnistä/Sammuta Paalinkäärijä</fi>
+            <hu>Kapcsolja Be/Ki A Bálacsomagolót</hu>
+            <ja>ベールラッパーをオン/オフ</ja>
+            <ko>베일 래퍼 켜기/끄기</ko>
+            <no>Slå På/Av Ballpakkemaskin</no>
+            <pl>Włącz/Wyłącz Owijarkę</pl>
+            <pt-br>Ativar/Desativar Enfardadeira</pt-br>
+            <pt>Ativar/Desativar Enfardadeira</pt>
+            <ro>Pornește/Oprește Împachetatorul</ro>
+            <ru>Включить/Выключить Обмотчик</ru>
+            <zh-cn>开启/关闭包裹机</zh-cn>
+            <es-lat>Encender/Apagar El Envolvedor</es-lat>
+            <sv>Slå På/Av Balomslagare</sv>
+            <zh-tw>開啟/關閉包覆機</zh-tw>
+            <tr>Balyalayıcıyı Aç/Kapat</tr>
+            <uk>Увімкнути/Вимкнути Обмотувач</uk>
+            <vi>Bật/Tắt Máy Bọc Bó</vi>
+            <id>Aktifkan/Matikan Mesin Pembungkus</id>
+        </text>
+    </l10n>
+
+    <actions>
+        <action name="CHANGE_DROP_MODE_BUTTON" category="VEHICLE" ignoreComboMask="false"/>
+        <action name="TOGGLE_BALE_WRAPPER_BUTTON" category="VEHICLE" ignoreComboMask="false"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="CHANGE_DROP_MODE_BUTTON">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_z" axisComponent="+" neutralInput="0" index="1"/>
+            <binding device="0_XINPUT_GAMEPAD" input="BUTTON_5 BUTTON_18" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        
+        <actionBinding action="TOGGLE_BALE_WRAPPER_BUTTON">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_lalt" axisComponent="+" neutralInput="0" index="1"/>
+            <binding device="0_XINPUT_GAMEPAD" input="BUTTON_5 BUTTON_19" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+    </inputBinding>
+
+    <extraSourceFiles>
+        <sourceFile filename="RegisterSpecialization.lua" />
+    </extraSourceFiles>
+
+    <registerSpecializations>
+        <registerSpecialization name="automaticUnloadForBaleWrapper" className="AutomaticUnloadForBaleWrapper" filename="AutomaticUnloadForBaleWrapper.lua" searchedSpecializations="baleWrapper"/>
+    </registerSpecializations>
+</modDesc>
