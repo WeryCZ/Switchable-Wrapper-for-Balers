@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="94">
+<modDesc descVersion="93">
     <author>Wery</author>
-    <version>1.0.0.1</version>
-    <multiplayer supported="true"/>
+    <version>1.0.0.0</version>
+    <multiplayer supported="true"/>   
     <iconFilename>icon_SBWfB.dds</iconFilename>
 
     <title>
-        <cz>Vypínatelná Ovíječka U Balíkovačů</cz>
+        <cs>Vypínatelná Ovíječka U Balíkovačů</cs>
         <en>Switchable Bale Wrappers For Balers</en>
         <de>Abschaltbare Ballenwickler Für Ballenpressen</de>
         <fr>Enrubanneuses Désactivables Pour Presse À Balles</fr>
@@ -34,221 +34,90 @@
         <id>Pembungkus Bal Yang Dapat Dimatikan Untuk Mesin Pembuat Bal</id>
     </title>
 
-<description>
-    <cz><![CDATA[Popis: Tento script vám umožní vypínat a zapínat vaší ovíječku na balíkovači a přidá jeden nový způsob vykládání.
-Klávesové zkratky: Zápínání/vypínání ovíječky - CTRL + ALT
-Přepínání módů vykládání - Z
-Pokuď najdete chybu, nebo máte nápad na vylepšení napište to sem: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Seznam změn Verze 1.0.0.1:
-- Opraven český překlad
-- Změněno "Shromáždit po dvou" na "Až když je plný"]]></cz>
-    <en><![CDATA[Description: This script allows you to enable or disable the wrapper on the baler and adds a new unloading mode.
+    <description>
+        <cs><![CDATA[Popis: Tento script vám umožní vypínat a zapínat váší ovíječku na balíkovači a přidá jeden nový způsob vykládání.
+Klávesové zkratky: Zápínání/vypínání ovíjčky - CTRL + ALT
+Přepínání módů vykládání - Z]]></cs>
+        <en><![CDATA[Description: This script allows you to enable or disable the wrapper on the baler and adds a new unloading mode.
 Hotkeys: Enable/Disable wrapper - CTRL + ALT
-Switch unloading modes - Z
-If you find a bug or have an idea for improvement, please report it here: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Changelog Version 1.0.0.1:
-- Fixed Czech localization
-- Changed "Collect in pairs" to "When is full"]]></en>
-    <fr><![CDATA[Description : Ce script permet d'activer ou de désactiver l'enrubanneuse sur la presse et ajoute un nouveau mode de déchargement.
+Switch unloading modes - Z]]></en>
+        <fr><![CDATA[Description : Ce script permet d'activer ou de désactiver l'enrubanneuse sur la presse et ajoute un nouveau mode de déchargement.
 Raccourcis clavier : Activer/Désactiver l'enrubanneuse - CTRL + ALT
-Basculer entre les modes de déchargement - Z
-Si vous trouvez un bug ou avez une idée d'amélioration, veuillez le signaler ici : https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Journal des modifications Version 1.0.0.1 :
-- Correction de la localisation tchèque
-- Modification de "Collecter Par Deux" en "Lorsque Plein"]]></fr>
-    <it><![CDATA[Descrizione: Questo script consente di attivare o disattivare l'avvolgitore sulla pressa e aggiunge una nuova modalità di scarico.
+Basculer entre les modes de déchargement - Z]]></fr>
+        <it><![CDATA[Descrizione: Questo script consente di attivare o disattivare l'avvolgitore sulla pressa e aggiunge una nuova modalità di scarico.
 Tasti rapidi: Attiva/Disattiva avvolgitore - CTRL + ALT
-Cambia modalità di scarico - Z
-Se trovi un bug o hai un'idea per miglioramenti, segnalalo qui: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Registro delle modifiche Versione 1.0.0.1:
-- Correzione della localizzazione ceca
-- Modifica di "Raccogliere A Coppie" in "Quando È Pieno"]]></it>
-    <de><![CDATA[Beschreibung: Dieses Skript ermöglicht das Aktivieren oder Deaktivieren des Wicklers an der Presse und fügt einen neuen Entlademodus hinzu.
+Cambia modalità di scarico - Z]]></it>
+        <de><![CDATA[Beschreibung: Dieses Skript ermöglicht das Aktivieren oder Deaktivieren des Wicklers an der Presse und fügt einen neuen Entlademodus hinzu.
 Tastenkombinationen: Wickler ein-/ausschalten - STRG + ALT
-Entlademodi umschalten - Z
-Wenn Sie einen Fehler finden oder eine Verbesserungsidee haben, melden Sie dies bitte hier: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Änderungsprotokoll Version 1.0.0.1:
-- Tschechische Übersetzung korrigiert
-- "Sammeln Zu Zweit" in "Wenn Voll" geändert]]></de>
-    <es><![CDATA[Descripción: Este script permite activar o desactivar la envolvedora en la empacadora y agrega un nuevo modo de descarga.
+Entlademodi umschalten - Z]]></de>
+        <es><![CDATA[Descripción: Este script permite activar o desactivar la envolvedora en la empacadora y agrega un nuevo modo de descarga.
 Teclas rápidas: Activar/Desactivar envolvedora - CTRL + ALT
-Cambiar modos de descarga - Z
-Si encuentras un error o tienes una idea para mejorar, por favor repórtalo aquí: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Registro de cambios Versión 1.0.0.1:
-- Corrección de la localización checa
-- Cambio de "Recoger En Pares" a "Cuando Está Lleno"]]></es>
-    <da><![CDATA[Beskrivelse: Dette script gør det muligt at aktivere eller deaktivere indpakningen på presseren og tilføjer en ny aflæsningsmåde.
+Cambiar modos de descarga - Z]]></es>
+        <da><![CDATA[Beskrivelse: Dette script gør det muligt at aktivere eller deaktivere indpakningen på presseren og tilføjer en ny aflæsningsmåde.
 Genvejstaster: Aktivér/Deaktivér indpakning - CTRL + ALT
-Skift aflæsningsmåde - Z
-Hvis du finder en fejl eller har en idé til forbedring, bedes du rapportere det her: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Ændringslog Version 1.0.0.1:
-- Rettet tjekkisk oversættelse
-- Ændret "Samle I Par" til "Når Fuld"]]></da>
-    <nl><![CDATA[Beschrijving: Dit script maakt het mogelijk om de wikkelaar op de pers in of uit te schakelen en voegt een nieuwe lossingsmodus toe.
+Skift aflæsningsmåde - Z]]></da>
+        <nl><![CDATA[Beschrijving: Dit script maakt het mogelijk om de wikkelaar op de pers in of uit te schakelen en voegt een nieuwe lossingsmodus toe.
 Sneltoetsen: Wikkelaar in-/uitschakelen - CTRL + ALT
-Wijzig lossingsmodus - Z
-Als je een bug vindt of een idee voor verbetering hebt, meld dit dan hier: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Wijzigingslogboek Versie 1.0.0.1:
-- Correctie van de Tsjechische vertaling
-- "Verzamelen Per Twee" gewijzigd in "Wanneer Vol"]]></nl>
-    <fi><![CDATA[Kuvaus: Tämä skripti mahdollistaa käärijän aktivoinnin tai deaktivoinnin paalaimessa ja lisää uuden purkaustilan.
+Wijzig lossingsmodus - Z]]></nl>
+        <fi><![CDATA[Kuvaus: Tämä skripti mahdollistaa käärijän aktivoinnin tai deaktivoinnin paalaimessa ja lisää uuden purkaustilan.
 Pikanäppäimet: Käärijä päälle/pois - CTRL + ALT
-Vaihda purkaustiloja - Z
-Jos löydät virheen tai sinulla on parannusehdotus, ilmoita siitä täällä: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Muutosloki Versio 1.0.0.1:
-- Korjattu tšekkiläinen lokalisointi
-- Muutettu "Kerää Pareittain" muotoon "Kun On Täysi"]]></fi>
-    <hu><![CDATA[Leírás: Ez a szkript lehetővé teszi a bálacsomagoló be- vagy kikapcsolását a bálázón, és egy új kirakodási módot ad hozzá.
+Vaihda purkaustiloja - Z]]></fi>
+        <hu><![CDATA[Leírás: Ez a szkript lehetővé teszi a bálacsomagoló be- vagy kikapcsolását a bálázón, és egy új kirakodási módot ad hozzá.
 Gyorsbillentyűk: Csomagoló be-/kikapcsolása - CTRL + ALT
-Kirakodási módok váltása - Z
-Ha hibát találsz, vagy van egy ötleted a fejlesztéshez, kérlek itt írd meg: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Változások naplója 1.0.0.1:
-- Javított cseh fordítás
-- A "Gyűjteni Kettenként" módosítva "Amikor Tele Van"]]></hu>
-    <ja><![CDATA[説明: このスクリプトを使用すると、ベーラーのラッピング機能を有効または無効にし、新しいアンロードモードを追加できます。
+Kirakodási módok váltása - Z]]></hu>
+        <ja><![CDATA[説明: このスクリプトを使用すると、ベーラーのラッピング機能を有効または無効にし、新しいアンロードモードを追加できます。
 ショートカットキー: ラッピングの有効/無効 - CTRL + ALT
-アンロードモードの切り替え - Z
-バグを見つけた場合や改善のアイデアがある場合は、こちらに報告してください: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-変更履歴 バージョン 1.0.0.1:
-- チェコ語のローカライズを修正
-- 「ペアで収集」を「満杯の場合」に変更]]></ja>
-    <ko><![CDATA[설명: 이 스크립트를 사용하면 압축기의 래퍼를 활성화하거나 비활성화하고 새로운 언로딩 모드를 추가할 수 있습니다.
+アンロードモードの切り替え - Z]]></ja>
+        <ko><![CDATA[설명: 이 스크립트를 사용하면 압축기의 래퍼를 활성화하거나 비활성화하고 새로운 언로딩 모드를 추가할 수 있습니다.
 단축키: 래퍼 활성화/비활성화 - CTRL + ALT
-언로딩 모드 전환 - Z
-버그를 찾거나 개선 아이디어가 있으면 여기에 보고해주세요: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-변경 로그 버전 1.0.0.1:
-- 체코어 지역화 수정
-- "두 개씩 수집"을 "가득 찼을 때"로 변경]]></ko>
-    <no><![CDATA[Beskrivelse: Dette scriptet lar deg aktivere eller deaktivere pakkeren på pressen og legger til en ny lossemodus.
+언로딩 모드 전환 - Z]]></ko>
+        <no><![CDATA[Beskrivelse: Dette skriptet lar deg aktivere eller deaktivere pakkeren på pressen og legger til en ny lossemodus.
 Hurtigtaster: Aktiver/Deaktiver pakker - CTRL + ALT
-Bytt lossemodus - Z
-Hvis du finner en feil eller har en idé til forbedring, vennligst meld det her: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Endringslogg Versjon 1.0.0.1:
-- Rettet tsjekkisk oversettelse
-- Endret "Samle To Og To" til "Når Den Er Full"]]></no>
-    <pl><![CDATA[Opis: Ten skrypt umożliwia włączanie lub wyłączanie owijarki w prasie i dodaje nowy tryb rozładunku.
+Bytt lossemodus - Z]]></no>
+        <pl><![CDATA[Opis: Ten skrypt umożliwia włączanie lub wyłączanie owijarki w prasie i dodaje nowy tryb rozładunku.
 Skróty klawiszowe: Włącz/Wyłącz owijarkę - CTRL + ALT
-Przełącz tryby rozładunku - Z
-Jeśli znajdziesz błąd lub masz pomysł na ulepszenie, napisz to tutaj: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Dziennik zmian Wersja 1.0.0.1:
-- Poprawiono lokalizację czeską
-- Zmieniono "Zbierać Po Dwa" na "Kiedy Pełny"]]></pl>
-    <pt-br><![CDATA[Descrição: Este script permite ativar ou desativar o envolvedor na enfardadeira e adiciona um novo modo de descarregamento.
+Przełącz tryby rozładunku - Z]]></pl>
+        <pt-br><![CDATA[Descrição: Este script permite ativar ou desativar o envolvedor na enfardadeira e adiciona um novo modo de descarregamento.
 Teclas de atalho: Ativar/Desativar envolvedor - CTRL + ALT
-Alternar modos de descarregamento - Z
-Se você encontrar um erro ou tiver uma ideia de melhoria, por favor, reporte aqui: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Registro de alterações Versão 1.0.0.1:
-- Correção da localização em tcheco
-- Alterado "Coletar Em Pares" para "Quando Estiver Cheio"]]></pt-br>
-    <pt><![CDATA[Descrição: Este script permite ativar ou desativar o envolvedor na enfardadeira e adiciona um novo modo de descarregamento.
+Alternar modos de descarregamento - Z]]></pt-br>
+        <pt><![CDATA[Descrição: Este script permite ativar ou desativar o envolvedor na enfardadeira e adiciona um novo modo de descarregamento.
 Teclas de atalho: Ativar/Desativar envolvedor - CTRL + ALT
-Alternar modos de descarregamento - Z
-Se você encontrar um erro ou tiver uma ideia de melhoria, por favor, reporte aqui: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Registro de alterações Versão 1.0.0.1:
-- Correção da localização em tcheco
-- Alterado "Coletar Em Pares" para "Quando Estiver Cheio"]]></pt>
-    <ro><![CDATA[Descriere: Acest script permite activarea sau dezactivarea înfășurătorului pe presă și adaugă un nou mod de descărcare.
+Alternar modos de descarregamento - Z]]></pt>
+        <ro><![CDATA[Descriere: Acest script permite activarea sau dezactivarea înfășurătorului pe presă și adaugă un nou mod de descărcare.
 Taste rapide: Activează/Dezactivează înfășurătorul - CTRL + ALT
-Schimbă modurile de descărcare - Z
-Dacă găsiți o eroare sau aveți o idee pentru îmbunătățire, vă rugăm să raportați aici: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Log de modificări Versiunea 1.0.0.1:
-- Corectare localizare în limba cehă
-- Modificat "Colecta Câte Două" în "Când Este Plin"]]></ro>
-    <ru><![CDATA[Описание: Этот скрипт позволяет включать или выключать обмотчик на прессе и добавляет новый режим разгрузки.
+Schimbă modurile de descărcare - Z]]></ro>
+        <ru><![CDATA[Описание: Этот скрипт позволяет включать или выключать обмотчик на прессе и добавляет новый режим разгрузки.
 Горячие клавиши: Включить/Выключить обмотчик - CTRL + ALT
-Переключение режимов разгрузки - Z
-Если вы нашли ошибку или у вас есть идеи по улучшению, напишите об этом здесь: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Журнал изменений Версия 1.0.0.1:
-- Исправлена чешская локализация
-- Изменено "Собирать По Два" на "Когда Полон"]]></ru>
-    <zh-cn><![CDATA[描述：该脚本允许您启用或禁用打包机上的缠绕器，并添加一种新的卸载模式。
+Переключение режимов разгрузки - Z]]></ru>
+        <zh-cn><![CDATA[描述：该脚本允许您启用或禁用打包机上的缠绕器，并添加一种新的卸载模式。
 快捷键：启用/禁用缠绕器 - CTRL + ALT
-切换卸载模式 - Z
-如果您发现错误或有改进的想法，请在此处报告： https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-更新日志 版本 1.0.0.1：
-- 修正捷克语本地化
-- 将"成对收集"更改为"满时"]]></zh-cn>
-    <es-lat><![CDATA[Descripción: Este script permite activar o desactivar la envolvedora en la empacadora y agrega un nuevo modo de descarga.
+切换卸载模式 - Z]]></zh-cn>
+        <es-lat><![CDATA[Descripción: Este script permite activar o desactivar la envolvedora en la empacadora y agrega un nuevo modo de descarga.
 Teclas rápidas: Activar/Desactivar envolvedora - CTRL + ALT
-Cambiar modos de descarga - Z
-Si encuentra un error o tiene una idea para mejorar, por favor repórtelo aquí: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Registro de cambios Versión 1.0.0.1:
-- Corrección de la localización checa
-- Cambio de "Recoger En Pares" a "Cuando Está Lleno"]]></es-lat>
-    <sv><![CDATA[Beskrivning: Detta skript gör det möjligt att aktivera eller inaktivera omslagaren på pressen och lägger till ett nytt urlastningsläge.
+Cambiar modos de descarga - Z]]></es-lat>
+        <sv><![CDATA[Beskrivning: Detta skript gör det möjligt att aktivera eller inaktivera omslagaren på pressen och lägger till ett nytt urlastningsläge.
 Snabbtangenter: Aktivera/Inaktivera omslagare - CTRL + ALT
-Växla urlastningslägen - Z
-Om du hittar ett fel eller har en idé för förbättring, vänligen rapportera det här: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Ändringslogg Version 1.0.0.1:
-- Rättad tjeckisk översättning
-- Ändrat "Samla I Par" till "När Den Är Full"]]></sv>
-    <zh-tw><![CDATA[描述：此腳本允許您啟用或禁用打包機上的包膜器，並新增一種新的卸載模式。
+Växla urlastningslägen - Z]]></sv>
+        <zh-tw><![CDATA[描述：此腳本允許您啟用或禁用打包機上的包膜器，並新增一種新的卸載模式。
 快捷鍵：啟用/禁用包膜器 - CTRL + ALT
-切換卸載模式 - Z
-如果您發現錯誤或有改進的想法，請在此處報告：https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-更新日誌 版本 1.0.0.1：
-- 修正捷克語本地化
-- 將"成對收集"更改為"滿時"]]></zh-tw>
-    <tr><![CDATA[Açıklama: Bu betik, balya makinesindeki sargıyı etkinleştirmenize veya devre dışı bırakmanıza ve yeni bir boşaltma modu eklemenize olanak tanır.
+切換卸載模式 - Z]]></zh-tw>
+        <tr><![CDATA[Açıklama: Bu betik, balya makinesindeki sargıyı etkinleştirmenize veya devre dışı bırakmanıza ve yeni bir boşaltma modu eklemenize olanak tanır.
 Kısayol tuşları: Sargıyı Etkinleştir/Devre Dışı Bırak - CTRL + ALT
-Boşaltma modlarını değiştir - Z
-Hata bulur veya geliştirme öneriniz varsa, lütfen buraya yazın: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Değişiklik Günlüğü Sürüm 1.0.0.1:
-- Çekçe yerelleştirme düzeltildi
-- "İkili Topla" "Dolduğunda" olarak değiştirildi]]></tr>
-    <uk><![CDATA[Опис: Цей скрипт дозволяє вмикати або вимикати обмотчик на прес-підбирачі та додає новий режим вивантаження.
+Boşaltma modlarını değiştir - Z]]></tr>
+        <uk><![CDATA[Опис: Цей скрипт дозволяє вмикати або вимикати обмотчик на прес-підбирачі та додає новий режим вивантаження.
 Гарячі клавіші: Увімкнути/Вимкнути обмотчик - CTRL + ALT
-Перемикання режимів вивантаження - Z
-Якщо ви знайшли помилку або маєте ідеї щодо покращення, будь ласка, напишіть сюди: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Журнал змін Версія 1.0.0.1:
-- Виправлено чеську локалізацію
-- Змінено "Збирати По Два" на "Коли Повний"]]></uk>
-    <vi><![CDATA[Mô tả: Tập lệnh này cho phép bạn bật hoặc tắt máy quấn rơm trên máy đóng kiện và thêm một chế độ dỡ hàng mới.
+Перемикання режимів вивантаження - Z]]></uk>
+        <vi><![CDATA[Mô tả: Tập lệnh này cho phép bạn bật hoặc tắt máy quấn rơm trên máy đóng kiện và thêm một chế độ dỡ hàng mới.
 Phím tắt: Bật/Tắt máy quấn rơm - CTRL + ALT
-Chuyển đổi chế độ dỡ hàng - Z
-Nếu bạn tìm thấy lỗi hoặc có ý tưởng cải tiến, vui lòng báo cáo tại đây: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Nhật ký thay đổi Phiên bản 1.0.0.1:
-- Sửa bản địa hóa tiếng Séc
-- Đổi "Thu Thập Thành Đôi" thành "Khi Đầy"]]></vi>
-    <id><![CDATA[Deskripsi: Skrip ini memungkinkan Anda mengaktifkan atau menonaktifkan pembungkus pada mesin baler dan menambahkan mode pemuatan baru.
+Chuyển đổi chế độ dỡ hàng - Z]]></vi>
+        <id><![CDATA[Deskripsi: Skrip ini memungkinkan Anda mengaktifkan atau menonaktifkan pembungkus pada mesin baler dan menambahkan mode pemuatan baru.
 Tombol pintas: Aktifkan/Nonaktifkan pembungkus - CTRL + ALT
-Beralih mode pemuatan - Z
-Jika Anda menemukan bug atau memiliki ide untuk perbaikan, silakan laporkan di sini: https://github.com/WeryCZ/Switchable-Wrapper-for-Balers
-
-Catatan Perubahan Versi 1.0.0.1:
-- Diperbaiki terjemahan Ceko
-- Mengubah "Mengumpulkan Dalam Pasangan" menjadi "Ketika Penuh"]]></id>
-</description>
-
+Beralih mode pemuatan - Z]]></id>
+    </description>
 
     <l10n>
         <text name="DROP_MODE_MANUALLY">
-            <cz>Manuálně</cz>
+            <cs>Manuálně</cs>
             <en>Manually</en>
             <fr>Manuellement</fr>
             <it>Manuale</it>
@@ -276,7 +145,7 @@ Catatan Perubahan Versi 1.0.0.1:
             <id>Manual</id>
         </text>
         <text name="DROP_MODE_AUTOMATIC">
-            <cz>Automaticky</cz>
+            <cs>Automaticky</cs>
             <en>Automatically</en>
             <fr>Automatiquement</fr>
             <it>Automatico</it>
@@ -304,35 +173,35 @@ Catatan Perubahan Versi 1.0.0.1:
             <id>Otomatis</id>
         </text>
         <text name="DROP_MODE_COLLECT">
-            <cz>Když je plný</cz>
-            <en>When Is Full</en>
-            <fr>Lorsque Plein</fr>
-            <it>Quando È Pieno</it>
-            <de>Wenn Voll</de>
-            <es>Cuando Está Lleno</es>
-            <da>Når Fuld</da>
-            <nl>Wanneer Vol</nl>
-            <fi>Kun On Täysi</fi>
-            <hu>Amikor Tele Van</hu>
-            <ja>満杯の場合</ja>
-            <ko>가득 찼을 때</ko>
-            <no>Når Den Er Full</no>
-            <pl>Kiedy Pełny</pl>
-            <pt-br>Quando Estiver Cheio</pt-br>
-            <pt>Quando Estiver Cheio</pt>
-            <ro>Când Este Plin</ro>
-            <ru>Когда Полон</ru>
-            <zh-cn>满时</zh-cn>
-            <es-lat>Cuando Está Lleno</es-lat>
-            <sv>När Den Är Full</sv>
-            <zh-tw>滿時</zh-tw>
-            <tr>Dolduğunda</tr>
-            <uk>Коли Повний</uk>
-            <vi>Khi Đầy</vi>
-            <id>Ketika Penuh</id>
+            <cs>Shromáždit po dvou</cs>
+            <en>Collect In Pairs</en>
+            <fr>Collecter Par Deux</fr>
+            <it>Raccogliere A Coppie</it>
+            <de>Sammeln Zu Zweit</de>
+            <es>Recoger En Pares</es>
+            <da>Samle I Par</da>
+            <nl>Verzamelen Per Twee</nl>
+            <fi>Kerää Pareittain</fi>
+            <hu>Gyűjteni Kettenként</hu>
+            <ja>ペアで収集</ja>
+            <ko>두 개씩 수집</ko>
+            <no>Samle To Og To</no>
+            <pl>Zbierać Po Dwa</pl>
+            <pt-br>Coletar Em Pares</pt-br>
+            <pt>Coletar Em Pares</pt>
+            <ro>Colecta Câte Două</ro>
+            <ru>Собирать По Два</ru>
+            <zh-cn>成对收集</zh-cn>
+            <es-lat>Recoger En Pares</es-lat>
+            <sv>Samla I Par</sv>
+            <zh-tw>成對收集</zh-tw>
+            <tr>İkili Topla</tr>
+            <uk>Збирати По Два</uk>
+            <vi>Thu Thập Thành Đôi</vi>
+            <id>Mengumpulkan Berpasangan</id>
         </text>
         <text name="START_BALE_WRAPPER">
-            <cz>Zapnout: Ovíječku balíků</cz>
+            <cs>Zapnout: Ovíječku balíků</cs>
             <en>Activate bale wrapper</en>
             <fr>Activer l'enrubanneuse</fr>
             <it>Attivare la macchina per fasciatura</it>
@@ -360,7 +229,7 @@ Catatan Perubahan Versi 1.0.0.1:
             <id>Aktifkan pembungkus baler</id>
         </text>
         <text name="STOP_BALE_WRAPPER">
-            <cz>Vypnout: Ovíječku Balíků</cz>
+            <cs>Vypnout: Ovíječku Balíků</cs>
             <en>Deactivate bale wrapper</en>
             <fr>Désactiver l'enrubanneuse</fr>
             <it>Disattivare la macchina per fasciatura</it>
@@ -388,7 +257,7 @@ Catatan Perubahan Versi 1.0.0.1:
             <id>Matikan pembungkus baler</id>
         </text>
         <text name="CURRENT_DROP_MODE">
-            <cz>Aktuální režim spuštění: currentDropMode</cz>
+            <cs>Aktuální režim spuštění: currentDropMode</cs>
             <en>Current Start Mode: currentDropMode</en>
             <fr>Mode Actuel De Démarrage: currentDropMode</fr>
             <it>Modalità Corrente Di Avvio: currentDropMode</it>
@@ -416,7 +285,7 @@ Catatan Perubahan Versi 1.0.0.1:
             <id>Mode Mulai Saat Ini: currentDropMode</id>
         </text>
         <text name="input_CHANGE_DROP_MODE_BUTTON">
-            <cz>Přepnout režim spuštění</cz>
+            <cs>Přepnout režim spuštění</cs>
             <en>Change Start Mode</en>
             <fr>Changer Le Mode De Démarrage</fr>
             <it>Cambia Modalità Di Avvio</it>
@@ -444,7 +313,7 @@ Catatan Perubahan Versi 1.0.0.1:
             <id>Ubah Mode Mulai</id>
         </text>
         <text name="input_TOGGLE_BALE_WRAPPER_BUTTON">
-            <cz>Zapnout/vypnout ovíječku balíků</cz>
+            <cs>Zapnout/vypnout ovíječku balíků</cs>
             <en>Toggle Bale Wrapper On/Off</en>
             <fr>Activer/Désactiver L’enrubanneuse</fr>
             <it>Attiva/Disattiva L’avvolgitore</it>
@@ -483,7 +352,7 @@ Catatan Perubahan Versi 1.0.0.1:
             <binding device="KB_MOUSE_DEFAULT" input="KEY_z" axisComponent="+" neutralInput="0" index="1"/>
             <binding device="0_XINPUT_GAMEPAD" input="BUTTON_5 BUTTON_18" axisComponent="+" neutralInput="0" index="1"/>
         </actionBinding>
-
+        
         <actionBinding action="TOGGLE_BALE_WRAPPER_BUTTON">
             <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_lalt" axisComponent="+" neutralInput="0" index="1"/>
             <binding device="0_XINPUT_GAMEPAD" input="BUTTON_5 BUTTON_19" axisComponent="+" neutralInput="0" index="1"/>
